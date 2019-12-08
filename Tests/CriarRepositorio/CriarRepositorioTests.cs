@@ -20,7 +20,7 @@ namespace DesafioAPIGit.Tests
         {
 
             #region Parameters
-            string name = "Hello-World1";
+            string name = "Hello-World";
             string description = "This is your first repository";
             string homepage = "https://github.com";
             string axprivate = "false";
@@ -32,7 +32,7 @@ namespace DesafioAPIGit.Tests
 
             #region Expected Result      
             string statusCodeEsperado = "Created";
-            string name_id = "Hello-World1";
+            string name_id = "Hello-World";
             string node_id = " ";
 
             #endregion
