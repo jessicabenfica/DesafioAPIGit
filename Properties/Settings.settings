@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DesafioAPIGit.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="AUTHENTICATOR_USER" Type="System.String" Scope="User">
+      <Value Profile="(Default)">jessicabenfica</Value>
+    </Setting>
+    <Setting Name="AUTHENTICATOR_PASSWORD" Type="System.String" Scope="User">
+      <Value Profile="(Default)">764091jeh</Value>
+    </Setting>
+    <Setting Name="REPORT_NAME" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DB_URL" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DB_NAME" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DB_USER" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DB_PASSWORD" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DB_CONNECTION_TIMEOUT" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="REPORT_SUBSTRING_LENGTH" Type="System.Int16" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="URL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://api.github.com</Value>
+    </Setting>
+    <Setting Name="TOKEN" Type="System.String" Scope="User">
+      <Value Profile="(Default)">8592f67a4d35936c851879885edaee7cff9802e7</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

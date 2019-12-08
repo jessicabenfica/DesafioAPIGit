@@ -1,0 +1,6 @@
+{
+  "scopes": [
+    "$scopes"
+  ],
+  "note": "$note"
+}
