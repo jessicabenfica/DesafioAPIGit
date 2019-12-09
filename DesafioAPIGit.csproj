@@ -219,13 +219,20 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Requests\CriarAutorizacao\CriarAutorizacaoGitRequest.cs" />
+    <Compile Include="Requests\CriarIssueRepositorio\CriarIssueRepositorioGitRequest.cs" />
     <Compile Include="Requests\CriarRepositorio\CriarRepositorioGitRequest.cs" />
+    <Compile Include="Requests\DeletarRepositorio\DeletarRepositorioRequest.cs" />
+    <Compile Include="Requests\ListarRepositorios\ListarRepositorioGitRequest.cs" />
     <Compile Include="Tests\CriarAutorizacao\CriarAutorizacaoTests.cs" />
+    <Compile Include="Tests\CriarIssueRepositorio\CriarIssueRepositorioTests.cs" />
     <Compile Include="Tests\CriarRepositorio\CriarRepositorioTests.cs" />
+    <Compile Include="Tests\DeletarRepositorio\DeletarRepositoriosTests.cs" />
+    <Compile Include="Tests\ListarRepositorios\ListarRepositoriosTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="Jsons\CriarAutorizacao\CriarAutorizacaoGitJson.json" />
+    <None Include="Jsons\CriarIssueRepositorio\CriarIssueRepositorioGitJson.json" />
     <None Include="Jsons\CriarRepositorio\CriarRepositorioGitJson.json" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

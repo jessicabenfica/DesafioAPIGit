@@ -1,0 +1,11 @@
+{
+  "title": "$title",
+  "body": "$body",
+  "assignees": [
+    "$assignees"
+  ],
+  "milestone": "$milestone",
+  "labels": [
+    "$labels"
+  ]
+}

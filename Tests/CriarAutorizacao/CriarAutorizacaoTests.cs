@@ -21,7 +21,7 @@ namespace DesafioAPIGit.Tests
 
             #region Parameters
             string scopes = "public_repo";
-            string note = "test1";
+            string note = "test2";
             #endregion
 
             #region Expected Result      
