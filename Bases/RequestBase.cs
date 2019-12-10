@@ -52,6 +52,16 @@ namespace DesafioAPIGit.Bases
             return response;
         }
 
+        public IRestResponse<dynamic> ExecuteRequestTest()
+        {
+            IRestResponse<dynamic> response = RestSharpHelpers.ExecuteRequest(url, requestService, method, headers, cookies, parameters, parameterTypeIsUrlSegment, jsonBody, httpBasicAuthenticator, ntlmAuthenticator);
+
+        //  ExtentReportHelpers.AddTestInfo(url, requestService, method.ToString(), headers, cookies, parameters, jsonBody, httpBasicAuthenticator, ntlmAuthenticator, response);
+
+            return response;
+        }
+
+
         public void RemoveHeader(string header)
         {
             headers.Remove(header);           

@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-//using DesafioAPIGit.Flows;
+using DesafioAPIGit.Flows;
 
 namespace DesafioAPIGit.Bases
 {
@@ -14,14 +14,15 @@ namespace DesafioAPIGit.Bases
         [OneTimeSetUp]
         public void OneTimeSetUp()
         {
-       //   TokenFlows.GerarTokenGitHub();
-            ExtentReportHelpers.CreateReport();
+            TokenFlows.GerarTokenGitHub();
+            ExtentReportHelpers.CreateReport();                 
         }
 
         [SetUp]
         public void SetUp()
         {
             ExtentReportHelpers.AddTest();
+        //  TokenFlows.GerarTokenGitHub();
         }
 
         [TearDown]
@@ -33,6 +34,7 @@ namespace DesafioAPIGit.Bases
         [OneTimeTearDown]
         public void OneTimeTearDown()
         {
+       //   TokenFlows.DeletaTokenGitHub();
             ExtentReportHelpers.GenerateReport();
         }
     }

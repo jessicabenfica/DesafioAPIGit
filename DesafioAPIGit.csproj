@@ -227,7 +227,6 @@
     <Compile Include="Requests\Repositorio\DeletarRepositorioRequest.cs" />
     <Compile Include="Requests\Repositorio\ListarRepositorioGitRequest.cs" />
     <Compile Include="Tests\Autorizacao\CriarAutorizacaoTests.cs" />
-    <Compile Include="Tests\Autorizacao\DeletarAutorizacaoTests.cs" />
     <Compile Include="Tests\Issue\CriarIssueRepositorioTests.cs" />
     <Compile Include="Tests\Issue\ListarIssueRepositoriosTests.cs" />
     <Compile Include="Tests\Repositorio\CriarRepositorioTests.cs" />

@@ -12,13 +12,13 @@ namespace DesafioAPIGit.Helpers
 {
     public class GeneralHelpers
     {
-       /* 
+        
          public static void AtualizaVariavelToken(string value)
           {
             Properties.Settings.Default.TOKEN = value;
             Properties.Settings.Default.Save();
           }
-
+        /*
          public static string ReturnStringWithRandomNumbers(int size)
            {
            Random random = new Random();

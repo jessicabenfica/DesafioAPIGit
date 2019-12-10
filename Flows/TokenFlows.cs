@@ -17,7 +17,7 @@ namespace DesafioAPIGit.Flows
 
             #region Parameters
             string scopes = "public_repo";
-            string note = "test1";
+            string note = "test21";
          // string note = "test1" + GeneralHelpers.ReturnStringWithRandomNumbers(3); -> Substituir todos os campos para vir automaticamente (ir gerando token em ordem).
             string token = string.Empty;
             #endregion
@@ -30,17 +30,16 @@ namespace DesafioAPIGit.Flows
             CriarAutorizacaoRequest criarAutorizacaoGitRequest = new CriarAutorizacaoRequest();
             criarAutorizacaoGitRequest.setJsonBody(scopes, note);
 
-            IRestResponse<dynamic> response = criarAutorizacaoGitRequest.ExecuteRequest();
+            IRestResponse<dynamic> response = criarAutorizacaoGitRequest.ExecuteRequestTest();
 
             Assert.AreEqual(statusCodeEsperado, response.StatusCode.ToString());
 
             Assert.Multiple(() =>
             {
                 token = response.Data.token.ToString();
-           //   GeneralHelpers.AtualizaVariavelToken(token);
+                GeneralHelpers.AtualizaVariavelToken(token);
                 Console.WriteLine(token);
             });
-        }
-
+        }  
     }
 }

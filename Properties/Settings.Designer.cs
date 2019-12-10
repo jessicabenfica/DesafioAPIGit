@@ -145,7 +145,7 @@ namespace DesafioAPIGit.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("02496e148742ac99be2744c4c59aaa422342b38f")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string TOKEN {
             get {
                 return ((string)(this["TOKEN"]));
