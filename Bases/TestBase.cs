@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+//using DesafioAPIGit.Flows;
 
 namespace DesafioAPIGit.Bases
 {
@@ -13,6 +14,7 @@ namespace DesafioAPIGit.Bases
         [OneTimeSetUp]
         public void OneTimeSetUp()
         {
+       //   TokenFlows.GerarTokenGitHub();
             ExtentReportHelpers.CreateReport();
         }
 

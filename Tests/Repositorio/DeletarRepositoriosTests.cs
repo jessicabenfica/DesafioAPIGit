@@ -25,7 +25,7 @@ namespace DesafioAPIGit.Tests
             #endregion
 
             #region Expected Result      
-            string statusCodeEsperado = "Forbidden";  //  statusCodeEsperado = "No Content"/ "Forbidden"(https://developer.github.com/v3/repos/#delete-a-repository);
+            string statusCodeEsperado = "Forbidden";  //  statusCodeEsperado = "No Content"/ "Forbidden"(https://developer.github.com/v3/repos/#delete-a-repository) Verificar permissão no token gerado;
             #endregion
 
             DeletarRepositorioRequest deletarRepositorioRequest  = new DeletarRepositorioRequest(username,repo);                     

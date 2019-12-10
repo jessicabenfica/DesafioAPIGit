@@ -18,7 +18,7 @@ namespace DesafioAPIGit.Requests
 
         public void setJsonBody(string title, string body, string assignees, string milestone, string labels)
         {
-           jsonBody = File.ReadAllText(GeneralHelpers.ReturnProjectPath() + "Jsons/CriarIssueRepositorio/CriarIssueRepositorioGitJson.json", Encoding.UTF8);
+           jsonBody = File.ReadAllText(GeneralHelpers.ReturnProjectPath() + "Jsons/Issue/CriarIssueRepositorioGitJson.json", Encoding.UTF8);
            jsonBody = jsonBody.Replace("$title", title).Replace("$body", body).Replace("$assignees", assignees).Replace("$milestone", milestone).Replace("$labels", labels);
     }
     }

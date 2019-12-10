@@ -18,7 +18,7 @@ namespace DesafioAPIGit.Requests
 
         public void setJsonBody(string scopes, string note)
         {
-            jsonBody = File.ReadAllText(GeneralHelpers.ReturnProjectPath() + "Jsons/CriarAutorizacao/CriarAutorizacaoGitJson.json", Encoding.UTF8);
+            jsonBody = File.ReadAllText(GeneralHelpers.ReturnProjectPath() + "Jsons/Autorizacao/CriarAutorizacaoGitJson.json", Encoding.UTF8);
             jsonBody = jsonBody.Replace("$scopes", scopes).Replace("$note", note);                                                                                     
 
         }

@@ -11,7 +11,22 @@ using System.Threading.Tasks;
 namespace DesafioAPIGit.Helpers
 {
     public class GeneralHelpers
-    {       
+    {
+       /* 
+         public static void AtualizaVariavelToken(string value)
+          {
+            Properties.Settings.Default.TOKEN = value;
+            Properties.Settings.Default.Save();
+          }
+
+         public static string ReturnStringWithRandomNumbers(int size)
+           {
+           Random random = new Random();
+           const string chars = "0123456789";
+           return new string(Enumerable.Repeat(chars, size)
+           .Select(s => s[random.Next(s.Length)]).ToArray());
+           } 
+           */
         public static string FormatJson(string str)
         {
             string INDENT_STRING = "    ";

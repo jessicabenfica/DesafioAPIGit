@@ -38,6 +38,8 @@ namespace DesafioAPIGit.Tests
             {
                 Assert.AreEqual(statusCodeEsperado, response.StatusCode.ToString());
                 Assert.AreNotEqual(token, response.Data.ToString(" "));
+                Console.WriteLine(token);
+
             });
         }
 
