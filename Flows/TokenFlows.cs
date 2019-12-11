@@ -17,7 +17,7 @@ namespace DesafioAPIGit.Flows
 
             #region Parameters
             string scopes = "public_repo";
-            string note = "test21";
+            string note = "test1";
          // string note = "test1" + GeneralHelpers.ReturnStringWithRandomNumbers(3); -> Substituir todos os campos para vir automaticamente (ir gerando token em ordem).
             string token = string.Empty;
             #endregion

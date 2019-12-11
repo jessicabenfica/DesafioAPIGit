@@ -223,12 +223,14 @@
     <Compile Include="Requests\Autorizacao\DeletarAutorizacaoRequest.cs" />
     <Compile Include="Requests\Issue\CriarIssueRepositorioGitRequest.cs" />
     <Compile Include="Requests\Issue\ListarIssueRepositorioRequest.cs" />
+    <Compile Include="Requests\Projetos\ListarProjetosRepositorioRequest.cs" />
     <Compile Include="Requests\Repositorio\CriarRepositorioGitRequest.cs" />
     <Compile Include="Requests\Repositorio\DeletarRepositorioRequest.cs" />
     <Compile Include="Requests\Repositorio\ListarRepositorioGitRequest.cs" />
     <Compile Include="Tests\Autorizacao\CriarAutorizacaoTests.cs" />
     <Compile Include="Tests\Issue\CriarIssueRepositorioTests.cs" />
     <Compile Include="Tests\Issue\ListarIssueRepositoriosTests.cs" />
+    <Compile Include="Tests\Projetos\ListarProjetosRepositoriosTests.cs" />
     <Compile Include="Tests\Repositorio\CriarRepositorioTests.cs" />
     <Compile Include="Tests\Repositorio\DeletarRepositoriosTests.cs" />
     <Compile Include="Tests\Repositorio\ListarRepositoriosTests.cs" />

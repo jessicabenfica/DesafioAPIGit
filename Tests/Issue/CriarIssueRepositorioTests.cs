@@ -25,7 +25,7 @@ namespace DesafioAPIGit.Tests
 
             string title = "Found a bug";
             string body = "I'm having a problem with this.";
-            string assignees = "octocat";
+            string assignees = "jessicabenfica";
             string milestone = "1";
             string labels = "bug";
 
