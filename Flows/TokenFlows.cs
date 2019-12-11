@@ -17,9 +17,10 @@ namespace DesafioAPIGit.Flows
 
             #region Parameters
             string scopes = "public_repo";
-            string note = "test1";
-         // string note = "test1" + GeneralHelpers.ReturnStringWithRandomNumbers(3); -> Substituir todos os campos para vir automaticamente (ir gerando token em ordem).
+            string note = "test21";
+
             string token = string.Empty;
+            string authorizationId = string.Empty;
             #endregion
 
             #region Expected Result      
@@ -37,9 +38,29 @@ namespace DesafioAPIGit.Flows
             Assert.Multiple(() =>
             {
                 token = response.Data.token.ToString();
+                authorizationId = response.Data.id.ToString();
                 GeneralHelpers.AtualizaVariavelToken(token);
+                GeneralHelpers.AtualizaAuthorizationId(authorizationId);
                 Console.WriteLine(token);
             });
-        }  
+        }
+
+        public static void DeletaTokenGitHub()
+        {
+
+            #region Parameters
+            string authorizationId = Properties.Settings.Default.AUTHORIZATION_ID;
+            #endregion
+
+            #region Expected Result      
+            string statusCodeEsperado = "NoContent";
+
+            #endregion
+            DeletarAutorizacaoRequest deletarAutorizacaoRequest = new DeletarAutorizacaoRequest(authorizationId);
+
+            IRestResponse<dynamic> response = deletarAutorizacaoRequest.ExecuteRequestTest();
+
+            Assert.AreEqual(statusCodeEsperado, response.StatusCode.ToString());
+        }
     }
 }

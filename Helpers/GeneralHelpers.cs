@@ -18,6 +18,14 @@ namespace DesafioAPIGit.Helpers
             Properties.Settings.Default.TOKEN = value;
             Properties.Settings.Default.Save();
           }
+
+
+        public static void AtualizaAuthorizationId(string value)
+        {
+            Properties.Settings.Default.AUTHORIZATION_ID = value;
+            Properties.Settings.Default.Save();
+        }
+
         /*
          public static string ReturnStringWithRandomNumbers(int size)
            {

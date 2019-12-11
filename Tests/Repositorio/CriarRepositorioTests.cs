@@ -20,7 +20,7 @@ namespace DesafioAPIGit.Tests
         {
 
             #region Parameters
-            string name = "Hello-World";
+            string name = "Hello-World-Cria-Deleta";
             string description = "This is your first repository";
             string homepage = "https://github.com";
             string axprivate = "false";
@@ -32,8 +32,7 @@ namespace DesafioAPIGit.Tests
 
             #region Expected Result      
             string statusCodeEsperado = "Created";
-            string name_id = "Hello-World";
-          //string name_id = "Hello-World- "+ GeneralHelpers.ReturnStringWithRandomNumbers(3); -> Usar para substituir os nomes automaticamente sem precisar ficar mudando (Verificar e ajustar todos os parâmetros).
+            string name_id = "Hello-World-Cria-Deleta";
             string node_id = " ";
 
             #endregion
@@ -48,7 +47,6 @@ namespace DesafioAPIGit.Tests
                 Assert.AreEqual(statusCodeEsperado, response.StatusCode.ToString());
                 Assert.AreEqual(name_id, response.Data.name.ToString());
                 Assert.AreNotEqual(node_id, response.Data.ToString());
-
             });
         }
 

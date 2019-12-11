@@ -12,7 +12,6 @@ namespace DesafioAPIGit.Requests
         {
             requestService = "/authorizations/{authorization_id}";
             method = Method.DELETE;
-            httpBasicAuthenticator = true;
             parameters.Add("authorization_id", authorization_id);
         }
     }

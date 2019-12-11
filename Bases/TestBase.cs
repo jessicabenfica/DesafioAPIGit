@@ -22,7 +22,6 @@ namespace DesafioAPIGit.Bases
         public void SetUp()
         {
             ExtentReportHelpers.AddTest();
-        //  TokenFlows.GerarTokenGitHub();
         }
 
         [TearDown]
@@ -34,7 +33,7 @@ namespace DesafioAPIGit.Bases
         [OneTimeTearDown]
         public void OneTimeTearDown()
         {
-       //   TokenFlows.DeletaTokenGitHub();
+            TokenFlows.DeletaTokenGitHub();
             ExtentReportHelpers.GenerateReport();
         }
     }
