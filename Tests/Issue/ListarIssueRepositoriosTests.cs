@@ -21,7 +21,7 @@ namespace DesafioAPIGit.Tests
 
             #region Parameters
             string username = "jessicabenfica";
-            string repo = "APIGitHub";
+            string repo = "Teste-Delete-Repo";
             #endregion
 
             #region Expected Result      
