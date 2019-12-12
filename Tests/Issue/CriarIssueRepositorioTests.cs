@@ -21,7 +21,7 @@ namespace DesafioAPIGit.Tests
 
             #region Parameters
             string username = "jessicabenfica";
-            string repo = "Hello-World";
+            string repo = "Teste-Delete-Repo";
 
             string title = "Found a bug";
             string body = "I'm having a problem with this.";

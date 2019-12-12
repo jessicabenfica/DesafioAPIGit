@@ -6,12 +6,11 @@ using System.Text;
 
 namespace DesafioAPIGit.Requests
 {
-    public class ListarProjetosRepositorioRequest : RequestBase
+    public class ListarFollowersUsuarioRequest : RequestBase
     {
-        public ListarProjetosRepositorioRequest(string username)
+        public ListarFollowersUsuarioRequest(string username)
         {
-            requestService = "/users/{username}/projects";
-
+            requestService = "/users/{username}/following";
             method = Method.GET;
             parameters.Add("username", username);
         }
